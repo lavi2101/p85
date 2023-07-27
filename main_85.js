@@ -7,12 +7,12 @@ function getmenu() {
         htmldata = htmldata + menuListArray[i] + '<br>'
     }
     //Dê um nome apropriado ao Id, como displayMenu 
-    document.getElementById("  displayMenu       ").innerHTML = htmldata;
+    document.getElementById("displayMenu").innerHTML = htmldata;
 }
 
 function add_suggestion() {
     //Dê um nome de id apropriado, como addItem
-    var item = document.getElementById("   addItem      ").value;
+    var item = document.getElementById("addItem").value;
     //Use a função push() para colocar o item no menuListArray
     menuListArray.push(item);
 }
